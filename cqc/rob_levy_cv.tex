@@ -19,8 +19,8 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[a4paper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
-\usepackage{fontspec}
+\documentclass[a4paper,nomath]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+%\usepackage{fontspec} % REMOVE THE NOMATH OPTION!!!
 \usepackage{xltxtra}
 \usepackage{xunicode}
 
@@ -34,16 +34,12 @@
 \lastupdated % Print the Last Updated text at the top right
 
 \namesection{Rob}{Levy}{ % Your name
-    \urlstyle{same}\url{http://aidcomplexity.blogs.casa.ucl.ac.uk} \\
+    \urlstyle{same}\url{datadrivenecon.wordpress.com} \\
     \href{mailto:robert.g.levy@gmail.com}{robert.g.levy@gmail.com} | +44 (0) 7586 340 607 % Your contact information
 }
 
 %----------------------------------------------------------------------------------------
 %	LEFT COLUMN
-%----------------------------------------------------------------------------------------
-%
-%----------------------------------------------------------------------------------------
-%	RIGHT COLUMN
 %----------------------------------------------------------------------------------------
 %
 \begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
@@ -62,34 +58,94 @@
 
     \section{Experience}
 
-    \runsubsection{UCL}
-    \descript{| PhD and PostDoc}
+    %------------------------------------------------
+    \runsubsection{Public Group International}
+    \descript{ |\quad Consultant}
 
-    \location{May 2012 -- Present | London}
+    \location{Jan 2018 -- current | London}
     \vspace{\topsep} % Hacky fix for awkward extra vertical space
     \begin{tightitemize}
-        \item Created a new model of the global economy combining
-            input-output models and several trade models
-        \item Worked in Python, using the Pandas data analysis library
-        \item Taught seminars and lectured in Economics and Maths
-        \item Organised and managed project database
-            (around 200 million rows of trade and economic data)
-        \item Facilitated conference sessions at the Royal Society and in the university
-        \item Created interactive web visualisations such as \url{tinyurl.com/rlmodel}
-        \item Did some mapping/visualisation work such as \url{tinyurl.com/rlafrica}
+    	
+    	\item Specialist in training design and delivery
+    	
+    \end{tightitemize}
+    
+    \sectionspace % Some whitespace after the section
+    %------------------------------------------------
+    \runsubsection{Freelance}
+    \descript{ |\quad Trainer}
+
+    \location{Sep 2017 -- current | London/Cambridge}
+    \begin{tightitemize}
+    	\item Taught and edited courses on machine learning for Cambridge Spark
+		\item Taught courses on Python for Step Function
+    	
+    \end{tightitemize}
+    
+    \sectionspace % Some whitespace after the section
+    
+    %------------------------------------------------
+        \runsubsection{New Economics Foundation}
+        \descript{ |\quad Economist}
+    
+        \location{June 2017 -- Nov 2017 | London}
+        \begin{tightitemize}
+        	\item Quantitative analysis, mapping and data visualisation
+    		
+        	
+        \end{tightitemize}
+        
+        \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+    \runsubsection{UCL SSEES}
+    \descript{ |\quad Course director}
+
+    \location{Sep 2016 -- Jun 2017 | London}
+    \begin{tightitemize}
+    	\item Course director for \textit{Quantitative Methods} and \textit{Game Theory}
+		\item Designed interactive teaching aids for iPhone (Javascript \& Google Docs)
+    	
+    \end{tightitemize}
+    
+    \sectionspace % Some whitespace after the section
+
+
+    %------------------------------------------------
+    \runsubsection{University of Bristol}
+    \descript{|\quad Senior Teaching Associate}
+    
+    \location{Jan 2016 -- Aug 2016 | Bristol}
+%    \vspace{\topsep} % Hacky fix for awkward extra vertical space
+    \begin{tightitemize}
+    	\item Designed and ran classes on maths and economics
+		\item Ran STATA classes and drop-in sessions for 3rd year research projects
+    	
+    \end{tightitemize}
+    
+    \sectionspace % Some whitespace after the section
+    
+    %------------------------------------------------
+    \runsubsection{UCL}
+    \descript{ |\quad PhD and PostDoc}
+
+    \location{May 2012 -- Dec 2015 | London}
+%    \vspace{\topsep} % Hacky fix for awkward extra vertical space
+    \begin{tightitemize}
+        \item Course director for \textit{Maths for Environmental Economists} and \textit{Microeconomics for Environmental Economists}.
+              PGTA on other courses
     \end{tightitemize}
 
     \sectionspace % Some whitespace after the section
 
     %------------------------------------------------
 
-    \runsubsection{Citi}
-    \descript{| Data Analyst}
+    \runsubsection{Citibank}
+    \descript{ |\quad Data Analyst}
 
     \location{Oct 2011 -- Mar 2012 | London}
     \begin{tightitemize}
-        \item Designed and built Access databases for incremental loading of management
-            information relating to Citibank's transactions worldwide
+        \item Redesigned Excel and Access data workflows
     \end{tightitemize}
 
     \sectionspace % Some whitespace after the section
@@ -97,57 +153,48 @@
      %------------------------------------------------
 
     \runsubsection{Allianz Global Investors}
-    \descript{| Data Consultant}
+    \descript{ |\quad Data Consultant}
 
     \location{Jun 2010 -- Sep 2010 | Frankfurt, Germany}
     \begin{tightitemize}
-        \item Created a SQL-Server database to store
-            and manage financial data and to
-            generate and record trades made via the Bloomberg financial
-            trading system
-        \item This role was concurrent with my MSc
+        \item Created a SQL-Server database for Bloomberg financial transaction data
     \end{tightitemize}
 
     \sectionspace % Some whitespace after the section
 
-    %------------------------------------------------
-
-    \runsubsection{Accenture}
-    \descript{| Analyst}
-
-    \location{Feb 2008 -- May 2009 | London}
-    \begin{tightitemize}
-        \item SQL Server database design, querying and reporting
-        \item Access front-end design and implementation
-        \item VBA development in Excel and Visio
-        \item Database performance analysis
-    \end{tightitemize}
-
-    \sectionspace % Some whitespace after the section
+  
     
-    %------------------------------------------------
+%    %------------------------------------------------
+%
+%    \runsubsection{Datascope Recruitment}
+%    \descript{ |\quad Database Engineer}
+%
+%    \location{July 2007 -- Jan 2008 | London}
+%    \begin{tightitemize}
+%        \item Database consultancy and web coding (HTML and CSS)
+%    \end{tightitemize}
+%
+%    \sectionspace % Some whitespace after the section
+%    
+%    %------------------------------------------------
+%
+%    \runsubsection{\MakeLowercase{i}2}
+%    \descript{ |\quad Software Support Engineer}
+%
+%    \location{Oct 2004 -- Feb 2006 | Cambridge}
+%    \begin{tightitemize}
+%        \item Database support and troubleshooting. Access VBA coding.
+%    \end{tightitemize}
 
-    \runsubsection{Datascope Recruitment}
-    \descript{| Database Engineer}
-
-    \location{July 2007 -- Jan 2008 | London}
-    \begin{tightitemize}
-        \item Database consultancy, design and implementation
-        \item Database front-end design
-        \item Website coding (HTML and CSS)
-    \end{tightitemize}
-
-    \sectionspace % Some whitespace after the section
-    
-    %------------------------------------------------
+    \sectionspace % Some whitespace after the section%------------------------------------------------
     % Awards
     %------------------------------------------------
 
-    \section{Awards} 
+    \section{Certificates} 
 
     \begin{tabular}{rll}
         2013	 & Outstanding contribution to teaching -- Economics dept. UCL\\
-        2009     & GRE test -- Verbal: 600 (85th \%-ile), Quantitative 800 (94th \%-ile) \\
+        2009     & GRE test -- Verbal: 600 (85th \%ile), Quantitative 800 (94th \%-ile) \\
         2007     & Certificate of English Language Teaching to Adults (CELTA)
     \end{tabular}
 
@@ -160,8 +207,8 @@
     \section{Societies} 
 
     \begin{tabular}{rll}
-        2014 & Chairman & University of London Chamber Choir\\
-        2014 & Performer & Bright Club stand-up comedy for academics\\
+        2013/14 & Chairman & University of London Chamber Choir\\
+        2014/15 & Performer & Bright Club stand-up comedy for academics\\
 %        2013 & Vocal Soloist & Benjamin Britten's \textit{Rejoice In The Lamb}\\
 %        2004 & Coach & University men's volleyball club\\
     \end{tabular}
@@ -172,6 +219,10 @@
 
 \end{minipage} % The end of the right column
 \hfill
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
 \begin{minipage}[t]{0.3\textwidth} % The left column takes up 33% of the text width of the page
 
     %------------------------------------------------
@@ -180,20 +231,20 @@
 
     \section{Skills}
 
+    \subsection{Teaching}
+    \textbullet{} Lectured and designed courses in Maths, Computing, Economics and Machine Learning\\
+    \textbullet{} Designed and delivered training course on non-linear analysis for development professionals under Ben Ramalingam\\
+    \textbullet{} Volunteer at \textit{Code Club Pro}, teaching Primary teachers about coding\\
+    \textbullet{} CELTA-qualified experienced English teacher\\
+    
     \subsection{Coding}
 
-    \location{Skilled:}
-    ArcGIS \textbullet{} Python \textbullet{} JavaScript (D3.js data-viz) \textbullet{} Databases (SQL, SQLite, PostgreSQL) \\
-    Visual Basic \textbullet{} Java \textbullet{} LaTeX \\ 
-    \location{Experience of:}
-    HTML \textbullet{} CSS \textbullet{} PHP \textbullet{} R \\
+    Python \textbullet{} R \textbullet{} JavaScript \\
+    STATA \textbullet{} Databases \textbullet{} Visual Basic \\
+    21k reputation on StackOverflow
 
     \sectionspace % Some whitespace after the section
 
-    \subsection{Teaching}
-    Lectured and designed courses in Maths and Economics. \\
-    CELTA-qualified experienced English teacher. \\
-    
     \subsection{Languages}
     English (native) \textbullet{} German (advanced) \textbullet{} French (working proficiency)
 
@@ -239,10 +290,12 @@
 
     \section{Links} 
 
+    StackOverflow:// \href{http://stackoverflow.com/londonrob}{\bf londonrob} \\
+    Twitter:// \href{http://twitter.com/datadrivenecon}{\bf @DataDrivenEcon} \\
     Github:// \href{https://github.com/roblevy}{\bf roblevy} \\
     LinkedIn:// \href{http://uk.linkedin.com/in/robertgrahamlevy}{\bf robertgrahamlevy} \\
-    StackOverflow:// \href{http://stackoverflow.com/londonrob}{\bf londonrob} \\
-    Twitter:// \href{http://twitter.com/aid\_complexity}{\bf @DataDrivenEcon} \\
+    \sectionspace
+    Teaching aids: \href{http://www.homepages.ucl.ac.uk/~ucfnlev/}{\bf bit.ly/rl\_ucl}
 
     \sectionspace % Some whitespace after the section
 

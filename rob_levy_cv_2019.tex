@@ -1,0 +1,343 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,nomath]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+%\usepackage{fontspec} % REMOVE THE NOMATH OPTION!!!
+\usepackage{xltxtra}
+\usepackage{xunicode}
+\usepackage{paracol}
+\usepackage[document]{ragged2e}
+
+\defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Rob}{Levy}{ % Your name
+    \href{mailto:robert.g.levy@gmail.com}{robert.g.levy@gmail.com} | +44 (0) 7586 340 607 % Your contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\columnratio{0.66}
+\begin{paracol}{2} % The right column takes up 66% of the text width of the page
+
+    %------------------------------------------------
+    % Profile
+    %------------------------------------------------
+
+    \section{Profile}
+    \flushleft
+    Lecturer, developer, data nerd, maths whiz and facilitator.
+	I'm a people person \textit{and} a techie. I look to combine these two aspects in jobs which are technically challenging, creative, collaborative and communicative.
+
+	\vspace{\topsep}
+
+	I'm a full-stack web developer and data scientist with a long history in data and development in general.
+	
+    %------------------------------------------------
+    % Experience
+    %------------------------------------------------
+
+    \section{Experience}
+
+    %------------------------------------------------
+	\runsubsection{Freelance}
+	\descript{ |\quad Full-stack developer}
+	
+	\location{Jan 2019 -- current | London}
+	\vspace{\topsep} % Hacky fix for awkward extra vertical space
+	\begin{tightitemize}
+		\item Adapted corporate website to meet new design spec. Deployed website via git and Amazon Web Services.
+		\\
+		ES6/Babel -- Node/Express/Webpack -- SASS/SCSS -- React -- AWS EC2 -- AWS Elastic Beanstalk with load balancing
+		\\
+		\item Managed database schema upgrades and data cleansing\\
+		Linux via remote access -- MySQL command line interface -- SQL
+		
+	\end{tightitemize}
+	
+	\sectionspace % Some whitespace after the section
+	
+    %------------------------------------------------
+    \runsubsection{General Assembly}
+    \descript{ |\quad Lead Instructor}
+
+    \location{Apr 2018 -- current | London}
+    \vspace{\topsep} % Hacky fix for awkward extra vertical space
+    \begin{tightitemize}
+    	\item Taught and developed Web Development Immersive, a 12-week intensive Javascript course.
+    	Created many database-facing APIs and API-consuming front-ends from scratch.
+    	Responsive designs, cookies and local storage, JSON web token, mapping with Leaflet.js and Google Maps,
+    	RESTful APIs, session and token authentication, password hashing.
+    	\\
+    	ES6 -- Node.js -- Webpack -- SASS -- React -- Angular -- Command-line git
+    	\\
+    	\item Taught Data Science part-time evening course.\\
+    	Python -- Pandas -- Scikit Learn -- Matplotlib and Seaborn -- Supervised/Unsupervised learning -- Train/test split approaches \textbullet {} Model selection -- Ensemble methods -- Logistic regression, Clustering, Classification (SVC, kNN), Decision trees/random forests -- Webscraping \\
+    	\item Taught Data Analytics to corporate clients.\\
+    	SQL (Postgres) -- VBA -- Visualisation/Power BI
+    	
+    \end{tightitemize}
+    
+    \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+    \runsubsection{New Economics Foundation}
+    \descript{ |\quad Economist}
+
+    \location{Jun 2017 -- Nov 2017 | London}
+    \vspace{\topsep} % Hacky fix for awkward extra vertical space
+    \begin{tightitemize}
+    	\item Designed and ran quantitative economic and statistical analyses.\\
+    	Python (Jupyter Notebook) -- Pandas -- Matplotlib and Seaborn -- Javascript for mapping and visualisation (Leaflet.js)
+    	
+    \end{tightitemize}
+    
+    \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+    \runsubsection{UCL SSEES}
+    \descript{ |\quad Teaching Fellow}
+
+    \location{Sep 2016 -- Jun 2017 | London}
+    \vspace{\topsep} % Hacky fix for awkward extra vertical space
+    \begin{tightitemize}
+    	\item Course director for \textit{Quantitative Methods} and \textit{Game Theory}.
+		\item Supervised Bachelors theses and marked \& moderated Masters theses.
+    	
+    \end{tightitemize}
+    
+    \sectionspace % Some whitespace after the section
+
+
+    %------------------------------------------------
+    \runsubsection{University of Bristol}
+    \descript{|\quad Senior Teaching Associate}
+    
+    \location{Jan 2016 -- Aug 2016 | Bristol}
+%    \vspace{\topsep} % Hacky fix for awkward extra vertical space
+    \begin{tightitemize}
+    	\item Ran classes on STATA, maths and economics
+    	
+    \end{tightitemize}
+    
+    \sectionspace % Some whitespace after the section
+    
+    %------------------------------------------------
+    \runsubsection{UCL}
+    \descript{ |\quad PhD and PostDoc}
+
+    \location{May 2012 -- Dec 2015 | London}
+%    \vspace{\topsep} % Hacky fix for awkward extra vertical space
+    \begin{tightitemize}
+        \item Large-scale research project involving huge database of trade data (Postgres and PostGIS),
+        complex mathematical/statistical analyses (Python/Pandas/Numpy/R), and interactive visualisations (Javascript with D3.js)
+    \end{tightitemize}
+
+    \sectionspace % Some whitespace after the section
+
+     %------------------------------------------------
+
+    \runsubsection{Major financial clients}
+    \descript{ |\quad Data Consultant}
+
+    \location{Jun 2010 -- Mar 2012 | Frankfurt and London}
+    \begin{tightitemize}
+        \item Managed large-scale data migration \\
+        SQL, automated with VBA
+        \item Created a SQL-Server database for Bloomberg financial transaction data
+    \end{tightitemize}
+
+    \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+
+    \runsubsection{Accenture}
+    \descript{ |\quad Analyst}
+
+    \location{Feb 2008 -- May 2009 | London}
+    \begin{tightitemize}
+        \item SQL Server, SSRS, SSIS, querying \& performance
+    \end{tightitemize}
+
+    \sectionspace % Some whitespace after the section
+    
+    %------------------------------------------------
+
+    \runsubsection{Datascope Recruitment}
+    \descript{ |\quad Database Engineer}
+
+    \location{July 2007 -- Jan 2008 | London}
+    \begin{tightitemize}
+        \item Database consultancy and web coding (HTML and CSS)
+    \end{tightitemize}
+
+    \sectionspace % Some whitespace after the section
+    
+    %------------------------------------------------
+
+    \runsubsection{\MakeLowercase{i}2}
+    \descript{ |\quad Software Support Engineer}
+
+    \location{Oct 2004 -- Feb 2006 | Cambridge}
+    \begin{tightitemize}
+        \item Database support and troubleshooting. Access VBA coding.
+    \end{tightitemize}
+
+    \sectionspace % Some whitespace after the section%------------------------------------------------
+    % Awards
+    %------------------------------------------------
+
+    \section{Certificates} 
+
+    \begin{tabular}{rll}
+        2013	 & Outstanding contribution to teaching -- Economics dept. UCL\\
+        2009     & GRE test -- Verbal: 600 (85th \%ile), Quantitative 800 (94th \%-ile) \\
+    \end{tabular}
+
+    \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+    % Societies
+    %------------------------------------------------
+
+    \section{Societies} 
+
+    \begin{tabular}{rll}
+        2013/14 & Chairman & University of London Chamber Choir\\
+        2014/15 & Performer & Bright Club stand-up comedy for academics\\
+%        2013 & Vocal Soloist & Benjamin Britten's \textit{Rejoice In The Lamb}\\
+%        2004 & Coach & University men's volleyball club\\
+    \end{tabular}
+
+    \sectionspace % Some whitespace after the section
+
+    %----------------------------------------------------------------------------------------
+
+\switchcolumn
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+
+    %------------------------------------------------
+    % Skills
+    %------------------------------------------------
+
+    \section{Skills}
+
+    \subsection{Teaching}
+    \textbullet{} Taught web development, data science and statistics \\
+    \textbullet{} Lectured and designed courses in maths, quantitative research and economics \\
+    \textbullet{} CELTA-qualified experienced English teacher. \\
+    
+    \subsection{Coding}
+
+    Javascript/ES6 \textbullet{} Python \textbullet Node.js \\
+    React/Angular \textbullet{} SASS/SCSS \textbullet{} MongoDB/MySQL/Postgres \\
+    30k rep on StackOverflow
+
+    \sectionspace % Some whitespace after the section
+
+    \subsection{Languages}
+    English (native) \textbullet{} German (advanced) \textbullet{} French (working proficiency)
+
+    %------------------------------------------------
+    % Education
+    %------------------------------------------------
+
+    \section{Education} 
+    
+    \subsection{UCL}
+    \location{2012-2015 | London}
+    
+    \descript{PhD Global Mathematical Modelling}
+    Economic modelling, Data, Mapping/GIS, Visualisation, Python, Javascript
+    \sectionspace
+
+    \subsection{Frankfurt University}
+
+    \descript{MSc Quantitative Economics}
+    \location{2011 | Frankfurt, Germany}
+    Econometrics, macro, micro\\
+    Dissertation on natural disasters and economic development.
+    \sectionspace % Some whitespace after the section
+
+    \subsection{Warwick University}
+    \descript{MEng Electronic Engineering}
+    \location{2004 | UK}
+    2:1
+    \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+
+    \subsection{Hills Road College}
+    \descript{A-levels}
+    \location{Maths, Physics, Chemistry}
+    \location{1999 | Cambridge, UK}
+    Three `A' grades\\
+    \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+    % Links
+    %------------------------------------------------
+
+    \section{Links} 
+
+    StackOverflow:// \href{http://stackoverflow.com/londonrob}{\bf londonrob} \\
+    Github:// \href{https://github.com/roblevy}{\bf roblevy} \\
+    LinkedIn:// \href{http://uk.linkedin.com/in/rglevy}{\bf rglevy} \\
+    \sectionspace
+    Teaching aids: \href{http://www.homepages.ucl.ac.uk/~ucfnlev/}{\bf bit.ly/rl\_ucl}
+
+    \sectionspace % Some whitespace after the section
+
+    %----------------------------------------------------------------------------------------
+
+\end{paracol}
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
